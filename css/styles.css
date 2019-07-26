@@ -1,0 +1,132 @@
+/* Global styles 
+Primary - #4776ae;
+Primary Hover - #002147;
+Borders - #d9d9d9;
+Text - #333333
+Sub-Text - #666666;
+Background - #ffffff;
+----------*/
+/* border box fix */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #4776ae;
+    overflow: hidden;
+  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px;
+    border: 1px solid #d9d9d9;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #002147;
+    color: #ffffff;
+  }
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #002147;
+    color: #ffffff;
+  }
+/* Head styles */
+head {
+  border: 1px solid #d9d9d9;
+}
+/* Body styles */
+body {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  background-color: #ffffff;
+  }
+/* Header + Footer stles */
+header, 
+footer {
+  background: #ffffff;
+  color: #333333;
+  border: 1px solid #d9d9d9;
+}
+/* h1 and h2 in header and footers */
+header h1 {
+    color: #333333;
+    margin: 0;
+}
+header h2 {
+  color: #666666;
+}
+/* Header styles only */
+header {
+  text-align: center;
+  padding: 0%;
+}
+/* profile image styles */
+.profile-img {
+  /*width: 300px;*/
+  border-radius: 50%;
+  float: right;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 7px;
+  /* background-color: #1E2F23; */
+  height: 200px;
+  width: 200px;
+}
+body h2 {
+  color: #666666;
+}
+/* main text in body styles */
+.maintext {
+  text-align: left;
+  background-color: #ffffff;
+  margin: 0px;
+  border: 1px solid #d9d9d9;
+  color: #333333;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.topnav {
+  padding: 0px;
+}
+/* Footer styles only */
+footer {
+  text-align: center;
+  background-color: #4776ae;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+.content-wrap   {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+}
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #4776ae;
+}
+a:hover {
+  color: #002147;
+}
+/* Logo styles */
+.oup-logo {
+  float: left;
+  padding-left: 7px;
+}
